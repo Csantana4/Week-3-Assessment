@@ -3,22 +3,25 @@ console.log("hello world");
 
 
 function handleSubmit(evt) {
+
 	evt.preventDefault();
 	
 	alert("Form has been submitted successfully");
 }
 
 function compliment(event){
-	event.preventDefault();
+	
+    event.preventDefault();
 	alert('Good job!!!')
 }
 
 
 let form = document.querySelector('#contact');
+let pic = document.querySelector('img')
 
 
 
 
 
 form.addEventListener('submit', handleSubmit);
-form.addEventListener('mouseover',compliment)
+pic.addEventListener('mouseover',compliment)

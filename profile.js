@@ -19,27 +19,28 @@ const handleSubmit=(event) =>{
 
 
 
-let colorBtn= document.getElementById
-('color')
-let placeBtn= document.getElementById
-('place')
-let ritualBtn= document.getElementById
-('ritual')
+let colorBtn= document.querySelector('#color')
 
-function favColor(evt) {
-	evt.preventDefault();
-	
-	alert("Red")
-}
+let placeBtn= document.querySelector('#place')
+
+let ritualBtn= document.querySelector('#ritual')
+
+
 
 let favColor = () => {
-  let current = current+'red'
+  if(colorBtn.textContent = true){
+    alert('Red')
+  }
 }
 let favPlace = () => {
-    let current= current+'My bed'
+    if(placeBtn.textContent = true){
+        alert('My Bed')
+    }
 }
 let favRitual = () => {
-    let current = current+'Floss before brushing'
+    if(ritualBtn.textContent = true){
+        alert('Floss before brushing teeth')
+    }
 }
 
 
